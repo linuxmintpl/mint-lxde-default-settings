@@ -1,6 +1,0 @@
-#!/bin/bash
-if [ "$(glxinfo | egrep -i 'direct rendering')" = 'direct rendering: Yes' ]; then
-    compton --vsync opengl
-else
-    compton
-fi
