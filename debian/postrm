@@ -1,0 +1,16 @@
+#!/bin/sh -e
+
+set -e
+
+if dpkg-maintscript-helper supports mv_conffile 2>/dev/null; then
+    dpkg-maintscript-helper mv_conffile /etc/xdg/pcmanfm/mint-lxde.conf /etc/xdg/pcmanfm/mint-lxde/pcmanfm.conf 0.15 -- "$@"
+fi
+
+case "$1" in
+    remove)
+	update-alternatives --remove x-session-manager /usr/bin/startmintlxde
+	;;
+esac
+
+#DEBHELPER#
+exit 0

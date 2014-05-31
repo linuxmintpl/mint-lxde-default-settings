@@ -1,0 +1,14 @@
+Source: mint-lxde-default-settings
+Section: admin
+Priority: required
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Build-Depends: debhelper (>= 9), intltool
+Standards-Version: 3.9.4
+Homepage: http://linuxmint.pl
+
+Package: mint-lxde-default-settings
+Depends: ${misc:Depends}, mintsystem, pcmanfm | spacefm, lxpanel, mint-artwork-lxde, 
+         lxsession, terminator, fonts-liberation, lxsession-logout
+Recommends: scrot, compton, openbox
+Architecture: all 
+Description: This Package contains the default system settings for Linux Mint LXDE Edition.

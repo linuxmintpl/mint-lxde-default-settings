@@ -1,0 +1,383 @@
+mint-lxde-default-settings (16.0.0) petra; urgency=low
+
+  * Update for petra.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 15 Nov 2013 18:06:50 +0100
+
+mint-lxde-default-settings (13.2.3) maya; urgency=low
+
+  * Fix logout problem.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Sat, 05 Oct 2013 18:52:16 +0200
+
+mint-lxde-default-settings (13.2.2) maya; urgency=low
+
+  * Fix stupid big.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 04 Oct 2013 22:30:55 +0200
+
+mint-lxde-default-settings (13.2.1) maya; urgency=low
+
+  * Bug fix.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 04 Oct 2013 17:32:31 +0200
+
+mint-lxde-default-settings (13.2.0) maya; urgency=low
+
+  * Resync with testing version.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 04 Oct 2013 13:50:10 +0200
+
+mint-lxde-default-settings (13.1.0) maya; urgency=low
+
+  * Provides default session.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 05 Apr 2013 16:27:35 +0200
+
+mint-lxde-default-settings (13.0.9.1) maya; urgency=low
+
+  * Fix issue in mint-compositor script.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Thu, 21 Mar 2013 19:59:49 +0100
+
+mint-lxde-default-settings (13.0.8) maya; urgency=low
+
+  * Update mdm session.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Sun, 10 Mar 2013 14:04:22 +0100
+
+mint-lxde-default-settings (13.0.7) maya; urgency=low
+
+  * Update default session.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Sun, 10 Mar 2013 12:50:27 +0100
+
+mint-lxde-default-settings (13.0.6) maya; urgency=low
+
+  * Update desktop conf.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 08 Mar 2013 19:23:44 +0100
+
+mint-lxde-default-settings (13.0.5) maya; urgency=low
+
+  * Fix compton bug and add blueman to autostart.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 15 Feb 2013 15:39:37 +0100
+
+mint-lxde-default-settings (13.0.4) maya; urgency=low
+
+  * Add mc theme and config to this.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Thu, 14 Feb 2013 10:13:00 +0100
+
+mint-lxde-default-settings (13.0.3) maya; urgency=low
+
+  * Switch panel clock format.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Wed, 13 Feb 2013 20:17:03 +0100
+
+mint-lxde-default-settings (13.0.2) maya; urgency=low
+
+  * Fix wallpaper bug.
+  * Add compton effects to autostart:
+    - include mint-compositor script.
+  * Fix default session bug:
+    - add /etc/skel/.dmrc
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Wed, 13 Feb 2013 17:27:24 +0100
+
+mint-lxde-default-settings (13.0.1) maya; urgency=low
+
+  * Add new settings.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Tue, 12 Feb 2013 22:45:06 +0100
+
+mint-lxde-default-settings (13.0.0) maya; urgency=low
+
+  * Updated for Maya.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Sat, 01 Dec 2012 11:59:33 +0100
+
+mint-lxde-default-settings (12.0.5) lisa-lxde; urgency=low
+
+  * Made adjustments
+
+ -- Frederic Gaudet <fred@linuxmint.com>  Mon, 02 Mar 2012 14:09:00 +1000
+
+mint-lxde-default-settings (12.0.4) lisa-lxde; urgency=low
+
+  * Added pyshot
+
+ -- Frederic Gaudet <fred@linuxmint.com>  Mon, 27 Feb 2012 15:51:00 +1000
+
+mint-lxde-default-settings (12.0.3) lisa-lxde; urgency=low
+
+  * Fix LXDE theme
+
+ -- Frederic Gaudet <fred@linuxmint.com>  Mon, 16 Feb 2012 16:25:00 +1000
+
+mint-lxde-default-settings (12.0.2) lisa-lxde; urgency=low
+
+  * Removed duplications in autostart
+  * Changed default theme to Mint-Z-Mate
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 10 Dec 2011 22:32:41 +0000
+
+mint-lxde-default-settings (12.0.1) lisa; urgency=low
+
+  * Removed all adjustments
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 09 Dec 2011 13:25:00 +0000
+
+mint-lxde-default-settings (12.0.0) lisa; urgency=low
+
+  * Updated for Lisa.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 07 Dec 2011 11:43:54 +0000
+
+mint-lxde-default-settings (11.0.4) katya-lxde; urgency=low
+
+  * Fixed Home directory launcher on desktop.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  14 Jun 2011 15:49:00 -0400
+
+mint-lxde-default-settings (11.0.3) katya-lxde; urgency=low
+
+  * Now launches Evince by default for .pdf files.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  14 Jun 2011 15:24:00 -0400
+
+mint-lxde-default-settings (11.0.2) katya-lxde; urgency=low
+
+  * Added additional adjustments to remove unusable features.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  14 Jun 2011 13:09:00 -0400
+
+mint-lxde-default-settings (11.0.1) katya-lxde; urgency=low
+
+  * Added gnome-run-dialog as a dependency.
+  * Corrected mimetypes to say gedit rathern than leafpad.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  08 Jun 2011 14:30:00 -0400
+
+mint-lxde-default-settings (11.0.0) katya-lxde; urgency=low
+
+  * Updated for Katya.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  07 Jun 2011 22:05:00 -0400
+
+mint-lxde-default-settings (10.0.4) julia-lxde; urgency=low
+
+  * Only 1 virtual desktop by default
+  * Open Jar files with Java
+
+ -- Clement Lefebvre <root@linuxmint.com>  11 Mar 2011 12:59:00 +0000
+
+mint-lxde-default-settings (10.0.2) julia-lxde; urgency=low
+
+  * Changed md5.desktop to display "MD5" rather than "md5".
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  10 Feb 2011 09:50:36 -0500
+
+mint-lxde-default-settings (10.0.1) julia-lxde; urgency=low
+
+  * Added mintSystem adjustments for app translations.
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  09 Feb 2011 13:34:22 -0500
+
+mint-lxde-default-settings (10.0.0) julia-lxde; urgency=low
+
+  * Updated for Julia
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  22 Oct 2010 02:12:10 -0400
+
+mint-lxde-default-settings (9.0.8) isadora-lxde; urgency=low
+
+  * Removed prerm and postinst scripts
+  * Removed alternative lxdm.conf
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  08 May 2010 06:56:43 -0400
+
+mint-lxde-default-settings (9.0.7) isadora-lxde; urgency=low
+
+  * Merged autostart processes to autostart file
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  07 May 2010 20:33:28 -0400
+
+mint-lxde-default-settings (9.0.6) isadora-lxde; urgency=low
+
+  * Turned off autorun for removable media
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  07 May 2010 13:52:24 -0400
+
+mint-lxde-default-settings (9.0.5) isadora-lxde; urgency=low
+
+  * Changed wallpaper reference in pcmanfm.conf to .jpg extension
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  07 May 2010 10:41:06 -0400
+
+mint-lxde-default-settings (9.0.4) isadora-lxde; urgency=low
+
+  * Minor edits to panel configuration
+  * Removed pcmanfm profile
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  07 May 2010 01:35:59 -0400
+
+mint-lxde-default-settings (9.0.3) isadora-lxde; urgency=low
+
+  * Added games to $PATH
+  * Added md5sum script and .desktop file
+  * edited mintmenu.png
+  * Added startup processes to /etc/skel and removed from autostart file
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  06 May 2010 11:05:15 -0400
+
+mint-lxde-default-settings (9.0.2) isadora-lxde; urgency=low
+
+  * Corrected segfaults in lxpanel configuration file
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  06 May 2010 19:36:18 -0400
+
+mint-lxde-default-settings (9.0.1) isadora-lxde; urgency=low
+
+  * Added lxsession profile
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  06 May 2010 18:30:28 -0400
+
+mint-lxde-default-settings (9.0.0) isadora-lxde; urgency=low
+
+  * Added support for lxdm
+  * Changed version number to match release
+
+ -- Kendall Tristan Weaver <kendalltweaver@gmail.com>  01 May 2010 17:28:35 -0400
+
+mint-lxde-default-settings (1.5) helena-lxde; urgency=low
+
+  * Removed mintshot and mintshot.desktop
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  22 Mar 2010 11:24:00 -0400
+
+mint-lxde-default-settings (1.4) helena-lxde; urgency=low
+
+  * Edited default panel layout
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  21 Mar 2010 10:46:00 -0400
+
+mint-lxde-default-settings (1.3) helena-lxde; urgency=low
+
+  * Added Firefox icons to hicolor icon theme
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  21 Mar 2010 10:18:00 -0400
+
+mint-lxde-default-settings (1.2) helena-lxde; urgency=low
+
+  * Added screenshot application
+  * added window-manager.png
+  * lxpanel configuration file edited
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  21 Mar 2010 09:48:00 -0400
+
+mint-lxde-default-settings (1.1) helena-lxde; urgency=low
+
+  * Configuration filed edited for different default artwork
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  02 Mar 2010 13:01:00 -0500
+
+mint-lxde-default-settings (1.0) helena-lxde; urgency=low
+
+  * Configuration files finalized
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  22 Feb 2010 10:07:00 -0500
+
+mint-lxde-default-settings (0.14) helena-lxde; urgency=low
+
+  * Artwork defaults changed
+  * Added mint-artwork-lxde as a dependency
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  21 Feb 2010 19:38:00 -0500
+
+mint-lxde-default-settings (0.13) helena-lxde; urgency=low
+
+  * Minor edits to autostart and usplash.conf
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  21 Feb 2010 14:24:00 -0500
+
+mint-lxde-default-settings (0.12) helena-lxde; urgency=low
+
+  * Removed CPU monitor from panel and added volume control
+  * Added modified usplash.conf to allow splash screen on shutdown/reboot
+  * Edited lxde-rc.xml to enable system hotkeys
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  20 Feb 2010 15:50:00 -0500
+
+mint-lxde-default-settings (0.11) helena-lxde; urgency=low
+
+  * Changed system fonts to DejaVu Sans Semi-Condensed 10
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  19 Feb 2010 16:55:00 -0500
+
+mint-lxde-default-settings (0.10) helena-lxde; urgency=low
+
+  * Now pulls gnome-mplayer from the menu
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  19 Feb 2010 08:52:00 -0500
+
+mint-lxde-default-settings (0.9) helena-lxde; urgency=low
+
+  * edited autostart file
+  * removed .desktop file for pcmanfm
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  18 Feb 2010 10:25:00 -0500
+
+mint-lxde-default-settings (0.8) helena-lxde; urgency=low
+
+  * Added keyboard layout tool and gtk file
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  17 Feb 2010 11:46:00 -0500
+
+mint-lxde-default-settings (0.7) helena-lxde; urgency=low
+
+  * Added "NoDisplay=true" element to md5.desktop
+  * Now sets appropriate defaults.list for root account
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  17 Feb 2010 01:57:00 -0500
+
+mint-lxde-default-settings (0.6) helena-lxde; urgency=low
+
+  * Added md5.desktop to /usr/share/applications
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  17 Feb 2010 01:00:00 -0500
+
+mint-lxde-default-settings (0.5) helena-lxde; urgency=low
+
+  * Added pcmanfm.desktop to /usr/share/applications
+  * Backs up unused default sessions
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  16 Feb 2010 12:33:00 -0500
+
+mint-lxde-default-settings (0.4) helena-lxde; urgency=low
+
+  * Changed to flat icons in lxpanel
+  * Now defaults to Noble_Dark Openbox theme
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  16 Feb 2010 11:06:00 -0500
+
+mint-lxde-default-settings (0.3) helena-lxde; urgency=low
+
+  * Changed target for defaults.list change
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  16 Feb 2010 00:59:00 -0500
+
+mint-lxde-default-settings (0.2) helena-lxde; urgency=low
+
+  * Now references shiki-noble gtk theme
+  * Now corrects some default configuration files
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  15 Feb 2010 21:55:00 -0500
+
+mint-lxde-default-settings (0.1) helena-lxde; urgency=low
+
+  * Initial release
+
+ -- Kendall Weaver <kendalltweaver@gmail.com>  15 Feb 2010 15:17:00 -0500
+

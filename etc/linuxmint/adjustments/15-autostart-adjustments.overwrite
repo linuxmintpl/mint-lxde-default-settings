@@ -1,0 +1,8 @@
+/usr/lib/linuxmint/mintSystem/adjustments/bluetooth-applet.desktop /etc/xdg/autostart/bluetooth-applet.desktop
+/usr/lib/linuxmint/mintSystem/adjustments/xfce4-power-manager.desktop /etc/xdg/autostart/xfce4-power-manager.desktop
+/usr/lib/linuxmint/mintSystem/adjustments/polkit-gnome-authentication-agent-1.desktop /etc/xdg/autostart/polkit-gnome-authentication-agent-1.desktop
+/usr/lib/linuxmint/mintSystem/adjustments/gdu-notification-daemon.desktop /etc/xdg/autostart/gdu-notification-daemon.desktop
+/usr/lib/linuxmint/mintSystem/adjustments/mintupdate.desktop /etc/xdg/autostart/mintupdate.desktop
+/usr/lib/linuxmint/mintSystem/adjustments/mintupload.desktop /etc/xdg/autostart/mintupload.desktop
+/usr/lib/linuxmint/mintSystem/adjustments/mintwelcome.desktop /etc/xdg/autostart/mintwelcome.desktop
+/usr/lib/linuxmint/mintSystem/adjustments/user-dirs-update-gtk.desktop /etc/xdg/autostart/user-dirs-update-gtk.desktop

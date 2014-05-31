@@ -1,0 +1,25 @@
+[Desktop Entry]
+Name=Home
+Name[pt]=Pasta Pessoal
+Name[de]=Persönlicher Ordner
+Name[fr]=Dossier personnel
+Name[ja]=ホーム
+Name[ar]=المنزل
+Name[it]=Home
+Name[es]=Inicio
+Name[ko]=홈
+Name[cs]=Domovský adresář
+Name[zh_TW]=家
+Name[bg]=Домашна директория
+Name[hr]=Home Direktorij
+Name[pl]=Katalog domowy
+Name[sv]=Hemmapp
+Name[ro]=Acasă
+OnlyShowIn=GNOME;LXDE;
+Exec=pcmanfm ~/
+Icon=folder_home
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Core;Documentation;
+

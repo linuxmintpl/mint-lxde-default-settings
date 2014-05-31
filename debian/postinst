@@ -1,0 +1,25 @@
+#!/bin/sh -e
+
+set -e
+
+# Remove alternative file if it's not a symlink, workaround for broken upgrade
+# See bug #625485
+if [ -f /etc/alternatives/lxdm.conf ] ; then
+  if [ ! -h "/etc/alternatives/lxdm.conf" ] ; then
+    rm -f "/etc/alternatives/lxdm.conf"
+  fi
+fi
+
+if [ "$1" = configure ]; then
+  update-alternatives --install /etc/lxdm/default.conf \
+    lxdm.conf /etc/xdg/mint-lxde/lxdm/lxdm.conf 60 
+  update-alternatives --install /usr/bin/x-session-manager \
+    x-session-manager /usr/bin/startmintlxde 40 
+fi
+
+if dpkg-maintscript-helper supports mv_conffile 2>/dev/null; then
+    dpkg-maintscript-helper mv_conffile /etc/xdg/pcmanfm/mint-lxde.conf /etc/xdg/pcmanfm/mint-lxde/pcmanfm.conf 0.15 -- "$@"
+fi
+
+#DEBHELPER#
+exit 0

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=md5
+NoDisplay=true
+Exec=mint-md5sum
+Icon=media-optical
+Terminal=false
+Categories=none

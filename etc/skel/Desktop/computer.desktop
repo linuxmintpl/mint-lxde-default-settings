@@ -1,0 +1,25 @@
+[Desktop Entry]
+Name=Computer
+Name[pt]=Computador
+Name[de]=Computer
+Name[fr]=Ordinateurs
+Name[ja]=コンピュータ
+Name[ar]=الكمبيوت
+Name[it]=Computer
+Name[es]=Equipo
+Name[ko]=컴퓨터
+Name[cs]=Počítače
+Name[zh_TW]=計算機
+Name[bg]=Компютър
+Name[hr]=Računala
+Name[pl]=Komputer
+Name[sv]=Dator
+Name[ro]=Computer
+OnlyShowIn=GNOME;LXDE;
+Exec=pcmanfm /
+Icon=display
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Core;Documentation;
+

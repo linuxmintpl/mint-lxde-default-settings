@@ -1,0 +1,140 @@
+# lxpanel <profile> config file. Manually editing is not recommended.
+# Use preference dialog in lxpanel to adjust config when you can.
+
+Global {
+    edge=bottom
+    allign=left
+    margin=0
+    widthtype=percent
+    width=100
+    height=22
+    transparent=0
+    tintcolor=#000000
+    alpha=0
+    setdocktype=1
+    setpartialstrut=1
+    usefontcolor=1
+    fontcolor=#FFFFFF
+    background=1
+    backgroundfile=/usr/share/mint-lxde/images/background.png
+    iconsize=21
+}
+
+Plugin {
+    type = menu
+    Config {
+        image=/usr/share/mint-lxde/images/mintmenu.png
+        system {
+        }
+        separator {
+        }
+        item {
+            name=Software Manager
+            image=/usr/lib/linuxmint/mintInstall/icon.svg
+            action=gksu mintinstall
+        }
+        item {
+            name=Terminal
+            image=terminator
+            action=x-terminal-emulator
+        }
+        item {
+            name=Run
+            image=gnome-run
+            action=lxpanelctl run
+        }
+        separator {
+        }
+        item {
+            image=gnome-logout
+            command=logout
+        }
+    }
+}
+
+Plugin {
+    type = space
+    Config {
+        Size=4
+    }
+}
+
+Plugin {
+    type = wincmd
+    Config {
+        image=user-desktop
+        Button1=iconify
+        Button2=shade
+        Toggle=0
+    }
+}
+
+Plugin {
+    type = space
+    Config {
+        Size=4
+    }
+}
+
+Plugin {
+    type = taskbar
+    expand=1
+    Config {
+        tooltips=1
+        IconsOnly=0
+        ShowAllDesks=0
+        UseMouseWheel=1
+        UseUrgencyHint=1
+        FlatButton=0
+        MaxTaskWidth=150
+        spacing=1
+        GroupedTasks=0
+    }
+}
+
+Plugin {
+    type = space
+    Config {
+        Size=2
+    }
+}
+
+Plugin {
+    type = tray
+}
+
+Plugin {
+    type = space
+    Config {
+        Size=4
+    }
+}
+
+Plugin {
+    type = volumealsa
+}
+
+Plugin {
+    type = space
+    Config {
+        Size=2
+    }
+}
+
+Plugin {
+    type = dclock
+    Config {
+        ClockFmt= %a, %b %d %H:%M
+        TooltipFmt=%A %x
+        BoldFont=0
+        IconOnly=0
+    }
+}
+
+Plugin {
+    type = space
+    Config {
+        Size=6
+    }
+}
+
