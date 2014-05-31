@@ -1,3 +1,9 @@
+mint-lxde-default-settings (17.0~rc1) UNRELEASED; urgency=medium
+
+  * Update for qiana.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Sat, 31 May 2014 17:25:57 +0200
+
 mint-lxde-default-settings (16.0.0) petra; urgency=low
 
   * Update for petra.
