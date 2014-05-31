@@ -5,6 +5,8 @@ Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
 Build-Depends: debhelper (>= 9), intltool
 Standards-Version: 3.9.5
 Homepage: http://linuxmint.pl
+Vcs-Browser: https://github.com/linuxmintpl/mint-lxde-default-settings
+Vcs-Git: https://github.com/linuxmintpl/mint-lxde-default-settings.git
 
 Package: mint-lxde-default-settings
 Depends: ${misc:Depends}, mintsystem, pcmanfm | spacefm, lxpanel, mint-artwork-lxde, 
