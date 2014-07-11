@@ -1,3 +1,9 @@
+mint-lxde-default-settings (17.0~rc1.1) UNRELEASED; urgency=medium
+
+  * Fix xfwm4 config problem.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 11 Jul 2014 12:53:47 +0200
+
 mint-lxde-default-settings (17.0~rc1) qiana; urgency=medium
 
   * Update for qiana.
