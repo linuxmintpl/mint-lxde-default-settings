@@ -1,3 +1,9 @@
+mint-lxde-default-settings (17.0~rc1.3) qiana; urgency=medium
+
+  * Add scrot to depends.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 08 Aug 2014 17:05:45 +0200
+
 mint-lxde-default-settings (17.0~rc1.2) qiana; urgency=medium
 
   * Multiple fixes.
