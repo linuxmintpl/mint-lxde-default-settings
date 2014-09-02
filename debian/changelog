@@ -1,56 +1,79 @@
-mint-lxde-default-settings (17.0~rc1.3) qiana; urgency=medium
+mint-lxde-default-settings (15.0.8) olivia; urgency=low
 
-  * Add scrot to depends.
+  * Fix panel run dialog.
 
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 08 Aug 2014 17:05:45 +0200
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 14 Jun 2013 10:30:49 +0200
 
-mint-lxde-default-settings (17.0~rc1.2) qiana; urgency=medium
+mint-lxde-default-settings (15.0.7) olivia; urgency=low
 
-  * Multiple fixes.
+  * Fix load mintinstall from menu.
 
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Thu, 31 Jul 2014 13:00:40 +0200
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Thu, 13 Jun 2013 22:23:01 +0200
 
-mint-lxde-default-settings (17.0~rc1.1) qiana; urgency=medium
+mint-lxde-default-settings (15.0.6) olivia; urgency=low
 
-  * Fix xfwm4 config problem.
+  * Update pcmanfm config.
 
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Thu, 24 Jul 2014 15:36:15 +0200
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Wed, 22 May 2013 20:38:10 +0200
 
-mint-lxde-default-settings (17.0~rc1) qiana; urgency=medium
+mint-lxde-default-settings (15.0.5) olivia; urgency=low
 
-  * Update for qiana.
+  * Update terminator and openbox configs.
 
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Wed, 09 Jul 2014 13:03:07 +0200
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Sat, 18 May 2013 18:19:44 +0200
 
-mint-lxde-default-settings (16.0.0) petra; urgency=low
+mint-lxde-default-settings (15.0.4) olivia; urgency=low
 
-  * Update for petra.
+  * Add manpages.
 
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 15 Nov 2013 18:06:50 +0100
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 17 May 2013 12:48:53 +0200
 
-mint-lxde-default-settings (13.2.3) maya; urgency=low
+mint-lxde-default-settings (15.0.3-2) olivia; urgency=low
 
-  * Fix logout problem.
+  * Prepare final release:
+    + remove dns-fix
+    + fix bug with mdm autostart.
 
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Sat, 05 Oct 2013 18:52:16 +0200
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Tue, 14 May 2013 17:44:31 +0200
 
-mint-lxde-default-settings (13.2.2) maya; urgency=low
+mint-lxde-default-settings (15.0.2+beta2-1) olivia; urgency=low
 
-  * Fix stupid big.
+  * Prepare beta 2 release.
 
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 04 Oct 2013 22:30:55 +0200
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 03 May 2013 22:56:02 +0200
 
-mint-lxde-default-settings (13.2.1) maya; urgency=low
+mint-lxde-default-settings (15.0.2+beta1-3) olivia; urgency=low
 
-  * Bug fix.
+  * Switch default terminal to terminator.
 
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 04 Oct 2013 17:32:31 +0200
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 03 May 2013 13:33:27 +0200
 
-mint-lxde-default-settings (13.2.0) maya; urgency=low
+mint-lxde-default-settings (15.0.2+beta1-2) olivia; urgency=low
 
-  * Resync with testing version.
+  * Fix typo.
+  * Update standards.
 
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 04 Oct 2013 13:50:10 +0200
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Sat, 27 Apr 2013 13:52:34 +0200
+
+mint-lxde-default-settings (15.0.2+beta1-1) olivia; urgency=low
+
+  * Prepare beta 1 release.
+  * Remove dns-fix from autostart.
+  * Add dns-fix init script.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Sat, 27 Apr 2013 12:02:39 +0200
+
+mint-lxde-default-settings (15.0.2) olivia; urgency=low
+
+  * Add dns-fix to autostart.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 26 Apr 2013 23:18:53 +0200
+
+mint-lxde-default-settings (15.0.1) olivia; urgency=low
+
+  * Prepare for olivia.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Wed, 10 Apr 2013 14:23:40 +0200
 
 mint-lxde-default-settings (13.1.0) maya; urgency=low
 
@@ -392,7 +415,7 @@ mint-lxde-default-settings (0.3) helena-lxde; urgency=low
 
  -- Kendall Weaver <kendalltweaver@gmail.com>  16 Feb 2010 00:59:00 -0500
 
-mint-lxde-default-settings (0.2) helena-lxde; urgency=low
+mint-lxde-default-settings (0.2) helena-lxde; ugency=low
 
   * Now references shiki-noble gtk theme
   * Now corrects some default configuration files

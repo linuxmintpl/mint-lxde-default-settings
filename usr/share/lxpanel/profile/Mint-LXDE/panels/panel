@@ -35,7 +35,7 @@ Plugin {
         }
         item {
             name=Terminal
-            image=terminal
+            image=terminator
             action=x-terminal-emulator
         }
         item {

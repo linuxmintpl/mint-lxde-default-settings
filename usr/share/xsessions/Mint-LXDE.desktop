@@ -1,10 +1,7 @@
 [Desktop Entry]
 # The names/descriptions should really be better
 Name=Mint-LXDE
-Comment=Mint-LXDE - Lightweight X11 desktop environment based on LXDE
-Comment[zh_TW]=Mint-LXDE - 輕量級的 X11 桌面環境
-Comment[fi]=Mint-LXDE - kevyt X11-työpöytäympäristö
-Comment[ja]=Mint-LXDE - 軽量な X11 デスクトップ環境
+Comment=Linux Mint - From Freedom Came Elegance.
 Exec=/usr/bin/startmintlxde
 # Icon=
 Type=Application

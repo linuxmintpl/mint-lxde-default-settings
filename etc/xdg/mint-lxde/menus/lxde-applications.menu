@@ -17,13 +17,11 @@
                 <Category>Utility</Category>
                 <Not><Category>Accessibility</Category></Not>
                 <Not><Category>System</Category></Not>
-		<Not><Category>AudioVideo</Category></Not>
-		<Not><Category>Audio</Category></Not>
-		<Not><Category>Video</Category></Not>
             </And>
                 <Or>
                     <Category>Core</Category>
                     <Category>Legacy</Category>
+                    <Category>Utility</Category>
                 </Or>
         </Include>
     </Menu>
@@ -131,12 +129,6 @@
                 <Category>System</Category>
             </Or>
         </Include>
-        <Exclude>
-            <Or>
-                <Filename>debian-uxterm.desktop</Filename>
-                <Filename>debian-xterm.desktop</Filename>
-            </Or>
-        </Exclude>
     </Menu>
 
 <!-- Preferences Menu, to include in Layout section -->
