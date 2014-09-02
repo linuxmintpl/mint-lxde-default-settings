@@ -11,11 +11,10 @@ if [ -f /etc/alternatives/lxdm.conf ] ; then
 fi
 
 if [ "$1" = configure ]; then
+  update-alternatives --install /etc/lxdm/default.conf \
+    lxdm.conf /etc/xdg/mint-lxde/lxdm/lxdm.conf 60 
   update-alternatives --install /usr/bin/x-session-manager \
-    x-session-manager /usr/bin/startmintlxde 50 \
-    --slave /usr/share/man/man1/x-session-manager.1.gz \
-    x-session-manager.1.gz /usr/share/man/man1/startmintlxde.1.gz 
-
+    x-session-manager /usr/bin/startmintlxde 40 
 fi
 
 if dpkg-maintscript-helper supports mv_conffile 2>/dev/null; then

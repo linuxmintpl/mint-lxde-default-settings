@@ -1,9 +1,9 @@
 Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat
-Upstream-Name: Lubuntu Default Settings
-Upstream-Maintainer: Lubuntu Team <lubuntu-desktop@lists.launchpad.net>
+Upstream-Name: mint-lxde-default-settings
+Upstream-Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
 
 Files: *
-Copyright: Copyright 2009, Julien Lavergne <gilir@ubuntu.com>
+Copyright: Copyright 2013, Mateusz Łukasik <mati75@linuxmint.pl>
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL-2' file.

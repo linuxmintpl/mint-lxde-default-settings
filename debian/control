@@ -8,7 +8,7 @@ Homepage: http://linuxmint.pl
 
 Package: mint-lxde-default-settings
 Depends: ${misc:Depends}, mintsystem, pcmanfm | spacefm, lxpanel, mint-artwork-lxde, 
-         lxsession, terminator, fonts-liberation
-Recommends: scrot, compton-git, openbox
+         lxsession, terminator, fonts-liberation, lxsession-logout
+Recommends: scrot, compton, openbox
 Architecture: all 
 Description: This Package contains the default system settings for Linux Mint LXDE Edition.

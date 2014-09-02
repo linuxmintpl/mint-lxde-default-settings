@@ -1,7 +1,0 @@
-@setxkbmap -option terminate:ctrl_alt_bksp
-@lxpanel --profile Mint-LXDE
-@blueman-applet
-@xscreensaver -no-splash
-@pcmanfm --desktop
-@xfce4-power-manager
-
