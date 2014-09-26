@@ -1,3 +1,9 @@
+mint-lxde-default-settings (17.0.0) qiana; urgency=medium
+
+  * Release for qiana.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 26 Sep 2014 14:33:12 +0200
+
 mint-lxde-default-settings (17.0~rc1.3) qiana; urgency=medium
 
   * Add scrot to depends.
