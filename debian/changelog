@@ -1,3 +1,9 @@
+mint-lxde-default-settings (1:2014.09.26) UNRELEASED; urgency=medium
+
+  * Start release for betsy
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 26 Sep 2014 14:38:13 +0200
+
 mint-lxde-default-settings (17.0.0) qiana; urgency=medium
 
   * Release for qiana.
