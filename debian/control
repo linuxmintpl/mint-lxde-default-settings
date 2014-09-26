@@ -10,7 +10,7 @@ Vcs-Git: https://github.com/linuxmintpl/mint-lxde-default-settings.git
 
 Package: mint-lxde-default-settings
 Depends: ${misc:Depends}, mintsystem, lxpanel, mint-artwork-lxde, lxsession, 
- fonts-liberation, lxsession-logout, scrot
+ fonts-liberation, scrot
 Recommends: openbox | xfwm4, pcmanfm | spacefm, peppermint-control-center
 Architecture: all 
 Description: This Package contains the default system settings for Linux Mint LXDE Edition.
