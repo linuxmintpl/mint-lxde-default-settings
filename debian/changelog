@@ -1,12 +1,11 @@
-<<<<<<< HEAD
-mint-lxde-default-settings (2014.09.26) UNRELEASED; urgency=medium
+mint-lxde-default-settings (2015.03.18) UNRELEASED; urgency=medium
 
   * Start release for betsy
   * Drop non-existent depends in Debian.
   * Bump Standards-Version to 3.9.6. (no changes needed)
 
  -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 26 Sep 2014 14:38:13 +0200
-=======
+
 mint-lxde-default-settings (17.0.2) rebecca; urgency=medium
 
   * Add lxpanel-data to depends.
@@ -20,7 +19,6 @@ mint-lxde-default-settings (17.0.1) rebecca; urgency=medium
   * Update copyright.
 
  -- Mateusz Łukasik <mati75@linuxmint.pl>  Sat, 06 Dec 2014 13:09:38 +0100
->>>>>>> master
 
 mint-lxde-default-settings (17.0.0) qiana; urgency=medium
 
